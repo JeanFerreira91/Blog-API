@@ -1,0 +1,21 @@
+# Ignoring venv files:
+venv/
+# Ignoring unnecessary Django files
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Backup files # 
+*.bak 
+
+# Python # 
+*.py[cod] 
+*$py.class
+
+ApiApp/__init__.py
+ApiApp/migrations/
+BlogProject/__init__.py
